@@ -1,0 +1,2 @@
+您需要将logs文件夹放到机器人根目录下，这样才能正常运行
+You need to place the "logs" folder in the root directory of the bot in order for it to run properly.
