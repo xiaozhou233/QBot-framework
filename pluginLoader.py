@@ -10,6 +10,16 @@ VERSION = "0.1 - test.ver"
 
 import os
 
+def get_allow_heartbeat_plugins(obj_plugins):
+    plugins_list = []
+    for pluginObj in obj_plugins:
+        #判断是否有"allow_heartbeat"属性
+        if hasattr(pluginObj, "allow_heartbeat"): 
+            #判断是否允许心跳包
+            if pluginObj.allow_heartbeat == "YES":
+                plugins_list.append(pluginObj)
+    return plugins_list
+
 def get_all_plugins():
     #初始化列表
     all_plugins = []
