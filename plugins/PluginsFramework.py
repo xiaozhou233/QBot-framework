@@ -12,5 +12,6 @@ def trigger(msg):
     ### 这里是你的代码 ###
     List = ['测试','test'] #关键词
     if msg['message'] in List: #判断对话里是否有关键词
+        print("Hello World")
     ### 这里是你的代码 ###
-        
+    
