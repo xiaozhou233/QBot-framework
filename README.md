@@ -4,6 +4,8 @@
 
 一个拓展度高、开源的、基于Python和go-cqhttp的QQ机器人框架
 <br />
+<h1>[WARN]警告: 此项目已经停止维护，最新版本重新构建为 NTQBotFrame
+
 
 
 
